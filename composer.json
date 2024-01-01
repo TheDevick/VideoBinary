@@ -1,0 +1,30 @@
+{
+    "name": "thedevick/video-binary",
+    "description": "Video Binary transforms files into MP4 videos.",
+    "license": "MIT",
+    "homepage": "https://github.com/TheDevick/VideoBinary",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "TheDevick\\VideoBinary\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TheDevick\\VideoBinaryTests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TheDevick",
+            "email": "erick@bilhalba.com.br",
+            "homepage": "https://TheDevick.vercel.app"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "symfony/var-dumper": "^7.0",
+        "vimeo/psalm": "^5.18",
+        "friendsofphp/php-cs-fixer": "^3.45"
+    }
+}
